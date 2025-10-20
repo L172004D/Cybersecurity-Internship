@@ -1,0 +1,10 @@
+Scan date,10/20/2025,,
+Target,[MY _IP],,
+MAC vendor,Shenzhen Skyworth Digital Technology,,
+,,,
+Port,Proto,Service,Likely purpose / notes
+53,tcp,domain,DNS service — router resolver; check if WAN-exposed
+80,tcp,http,Web management UI or captive portal
+443,tcp,https,HTTPS web UI — verify cert & auth
+7443,tcp,oracleas-https,Alternate HTTPS (OEM admin/proxy)
+8080,tcp,http-proxy,Proxy or secondary web UI
