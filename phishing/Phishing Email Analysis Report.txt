@@ -1,0 +1,21 @@
+* Phishing Email Analysis Report
+
+Name: Lithin Kumar
+Date: 22/10/2025
+Objective: To find phishing indicators in a suspicious email.
+
+Findings:
+
+Fake Sender: support@paypalsecure.com
+ → not from official PayPal domain.
+
+Fake Link: Link goes to paypal-security-login.com → not PayPal.
+
+Urgent Message: Says account will be suspended in 24 hours.
+
+Grammar Issues: Some minor spelling mistakes.
+
+Social Engineering: Tries to make you panic and click the link.
+
+Conclusion:
+This email is a phishing email. It uses a fake address, fake link, and scary language to steal personal info. Do not click links or reply. Report to IT security or delete the email.
