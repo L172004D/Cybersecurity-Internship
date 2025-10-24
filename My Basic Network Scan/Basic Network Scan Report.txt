@@ -1,0 +1,83 @@
+ 🛡 Nessus Essentials - Basic Network Scan Report
+ 🧠 Overview
+This project documents a "vulnerability assessment" performed using "Nessus Essentials, a free vulnerability scanner developed by "Tenable".  
+The goal of this scan was to identify and analyze potential security weaknesses in a "local network host" for cybersecurity learning and practice.
+
+ 🎯 Objectives
+- Perform a "Basic Network Scan" using Nessus Essentials.  
+- Identify vulnerabilities and misconfigurations in a local host.  
+- Understand the "severity levels" and "remediation methods".  
+- Generate a "professional vulnerability report" for documentation.
+
+---
+
+ ⚙ Scan Configuration
+
+| Setting | Description |
+|----------|--------------|
+| Tool Used | Nessus Essentials |
+| Scan Type | Basic Network Scan |
+| Date of Scan | October 24, 2025 |
+| Scan Policy | Basic Network Scan (default) |
+| Scanner | Localhost |
+| Host Scanned | 192.168.x.x (IP masked for privacy) |
+| Scan Duration | ~25 minutes |
+
+---
+
+ 📊 Findings Summary
+
+| Severity | Count | Description |
+|-----------|--------|-------------|
+| 🔴 Critical | 0 | No critical vulnerabilities detected. |
+| 🟠 High | 2 | Major risks that could allow unauthorized access or data exposure. |
+| 🟡 Medium | 2 | Moderate issues like outdated configurations or open ports. |
+| 🔵 Low | 31 | Minor findings or informational notices. |
+
+Total Vulnerabilities Found: 22 (combined severity levels across all categories)
+
+---
+
+🔍 Detailed Analysis
+
+ 🔴 High-Severity Vulnerabilities
+1. Outdated Software or Service
+   - Impact: The host runs an older version of a service that contains known security flaws.
+   - Consequence: Attackers could exploit these to gain unauthorized access or execute malicious code.
+   - Remediation: Update the affected software/service to the latest secure version.
+
+2. Insecure Communication Protocol
+   - Impact: Unencrypted communication channels detected (HTTP instead of HTTPS).
+   - Consequence: Data could be intercepted or modified in transit.
+   - Remediation: Switch to secure protocols like HTTPS or SSH.
+
+---
+
+ 🟡 Medium-Severity Vulnerabilities
+1. Unnecessary Open Ports
+   - Impact: Ports open to public access increase the attack surface.
+   - Remediation: Close unused ports and limit access using firewalls.
+
+2. Default Configuration Detected
+   - Impact: Default credentials or configurations can be easily exploited.
+   - Remediation: Change all default settings and passwords.
+
+---
+
+ 🔵 Low-Severity & Informational Findings
+- Missing or weak security headers.  
+- Outdated operating system metadata.  
+- Informational findings that can improve overall system hygiene.
+
+These do not pose immediate threats but should be reviewed for best practices.
+
+---
+
+ 📸 Screenshots
+Below are the screenshots captured during the scan:
+
+1. Scan Summary Dashboard – Overall scan status and vulnerability chart.  
+2. Vulnerabilities Tab – List of discovered vulnerabilities by severity.  
+3. Individual Vulnerability Detail View – Shows description, plugin ID, and remediation steps.
+
+The Screenshots are saved on my screenshots folder checkout that to Verify
