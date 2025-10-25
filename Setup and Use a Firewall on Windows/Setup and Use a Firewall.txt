@@ -1,0 +1,54 @@
+ 🧱 Task 4: Setup and Use a Firewall (Windows)
+
+🎯 Objective
+Configure and test basic firewall rules using "Windows Defender Firewall" to allow or block specific network traffic.
+
+ ⚙️ Tools Used
+ 🪟 "Windows Defender Firewall with Advanced Security"  
+ 💻 Command Prompt (Telnet test)  
+
+ 🧩 Steps Performed
+1. Opened "Windows Firewall" via `wf.msc`.  
+2. Listed current "Inbound Rules".  
+3. Created a rule to "block Telnet (port 23)".  
+4. Tested with  
+   `cmd
+   telnet localhost 23
+`
+
+➤ Connection blocked ✅
+5. Added a rule to "allow SSH (port 22)".
+6. Removed the test block rule to restore the original configuration.
+
+ 📄 Deliverables
+
+* 📘 "Firewall_Config_Report_Windows.pdf"
+* 🖼️ Screenshot 1 – Block Telnet rule
+* 🖼️ Screenshot 2 – Telnet test result
+* 🖼️ Screenshot 3 – Allow SSH rule
+
+ 🔒 Summary
+
+This task demonstrates how "Windows Firewall" filters inbound and outbound network traffic using rule-based control.
+By blocking and allowing specific ports (e.g., 23 for Telnet, 22 for SSH), we can secure the system against unauthorized access and ensure safe communication.
+
+ 🧭 Network Traffic Flow Diagram
+
+        [Internet]
+             |
+             v
+     +------------------+
+     |  Windows Firewall |
+     |  (Allow / Block)  |
+     +------------------+
+             |
+             v
+        [Your Computer]
+
+
+ 📅 Submitted By
+
+Name:LITHIN KUMAR M 
+Task: Task 4 – Setup and Use a Firewall (Windows)
+Date: 25/10/2025
+
